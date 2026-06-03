@@ -1,0 +1,15 @@
+<Button x:Name = "CmdZenz" Content="Zenzen"
+HorizontalAlignment="Left" Margin="216,96,
+0,0" VerticalAlignment="Top"/>
+<TextBlock x:Name = "TxtAusgabe" HorizontalAlignment="Left" Margin="48,141,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="36" Width="270"/>
+</Grid>
+</Window>
+FÃ¼r seine eigentliche Inbetriebnahme ist ein
+weiterer Eventhandler erforderlich:
+$btnWefz = $window.FindName("CmdWefz")
+$txtAusgabe = $window.FindName("TxtAusgabe")
+$btnWefz.Add_Click({
+$angabe = $txtVictim.Text +
+"wird angewefzt!"
+$txtAusgabe.Text = $angabe
+}
