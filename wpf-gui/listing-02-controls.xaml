@@ -1,0 +1,13 @@
+<Grid>
+<TextBox HorizontalAlignment="Left"
+Margin="22,23,0,0" TextWrapping="Wrap"
+Text="TextBox" VerticalAlignment="Top"
+Width="120"/>
+<Button Content="Fauchen" HorizontalAlignment="Left" Margin="79,96,0,0"
+VerticalAlignment="Top"/>
+<Button Content="Wefzen" HorizontalAlignment="Left" Margin="149,96,0,0"
+VerticalAlignment="Top"/>
+<Button Content="Zenzen" HorizontalAlignment="Left" Margin="216,96,0,0"
+VerticalAlignment="Top"/>
+</Grid>
+</Window>
